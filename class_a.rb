@@ -1,4 +1,5 @@
 require_relative "class_b.rb"
+
 class Person < Child
 
   def self.walk
