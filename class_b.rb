@@ -2,8 +2,9 @@
 
 class Child 
 
-  def eat 
-    puts "I am always hungry"
+  def eat(food)
+    @food = food
+    puts "I am always hungry for #{@food}"
   end
 
   def sleep
